@@ -56,7 +56,7 @@ For macOS (change clang/clang++ to gcc/g++):
 - Delete possible old alias:`cd /usr/local/bin` then `rm gcc` and `rm g++`
 - Make symlink: `ln -s gcc-X gcc` and `ln -s g++-X g++`, where X is the version number
 - Put `export PATH=/usr/local/bin:$PATH` in ~/.bash_profile or ~/.zshrc or whatever 
-- Restart Terminal and check `gcc --version` and `g++ -version`
+- Restart Terminal and check `gcc --version` and `g++ --version`
 
 
 
